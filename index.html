@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h2 id="titulo-app-gatos">AppDeGatos</h2>
+    <main>
+      <h3>imágenes de Gatos:</h3>
+      <!-- ToDo: Agregar enlace a imágenes de gatos -->
+      <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+
+      <!-- ToDo: Agregar imágenes referente a gatos -->
+      <a href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda"></a>
+
+      <hr>
+
+      <!-- Listas Ordenadas y no ordenadas -->
+      <h3>Lista de Gatos</h3>
+
+      <div>
+        <p >Cosas que los gatos <em>aman</em>:</p>
+        <ul id="lista-gatos-aman">
+          <li>Menta gatuna</li>
+          <li>Bolas de mimbre</li>
+          <li><s>Gatarina, Kit Kaboodle</s></li>
+        </ul>
+        
+        <a href="#" target="_blank" rel="noopener noreferrer"><img src="imagenes/gatarina.jpg"  alt="Gatarina marca Purina, Kit Kaboodle"></a>
+        
+        <p>Cosas que los gatos <strong>odian</strong>:</p>
+        <ol id="lista-gatos-odian">
+          <li>Bañarse</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+      <img id="imagen-de-gatos" src="imagenes/gatos.jpg"  alt="Otros gatos"> 
+
+      <!-- Creación de Formulario -->
+      <form action="/enviar-respuesta">
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interiores
+        </label><br>
+        
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior" >Exteriores
+        </label><br>
+
+        <!-- Casillas de Verificación -->
+        <label for="carinoso">
+          <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+        </label>
+        <label for="energico">
+          <input id="energico" type="checkbox" value="energico" name="personalidad">Enérgico
+        </label>
+        <label for="flojo">
+          <input id="flojo" type="checkbox" value="flojo" name="personalidad">Flojo
+        </label>
+
+        <!-- Texto y Bóton Enviar -->
+        <input type="text" placeholder="URL de la foto de tu Gato " required><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <div>
+        <img id="foto-principal"  src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda">
+      </div>
+    </main>
+    <footer>
+      <p><small> Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
