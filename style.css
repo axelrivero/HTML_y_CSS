@@ -1,11 +1,6 @@
-h2 {
-  color: blue;
+.lista-de-gatos {
+  color: chocolate;
 }
-
-h3 {
-  color: green;
-}
-
-p {
-  color: purple;
+.lista-de-gatos-ordenados {
+  color: rgb(130, 121, 114);
 }
