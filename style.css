@@ -1,12 +1,17 @@
-h2 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+.imagen-de-gatos {
+  width: 200px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
+.gatarina {
+  width: 200px;
+  border-width: 5px;
+  border-color: red;
+  border-style: double dashed dotted outset;
 }
 
-a {
-  font-family: 'Bebas Neue', sans-serif;
+.bordes-redondeados {
+  border-radius: 150px;
 }
