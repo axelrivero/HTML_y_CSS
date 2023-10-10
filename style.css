@@ -24,3 +24,11 @@
 img{
   width: 200px;
 }
+
+#foto-principal {
+  background-color: crimson;
+  border-width: 2px ;
+  border-color: black;
+  border-style: solid;
+  padding: 20px 15px 5px 10px ;
+}
