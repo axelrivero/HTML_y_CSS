@@ -1,39 +1,17 @@
-#titulo-app-gatos {
-  font-size: 30px;
-  color: green;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#imagen-de-gatos {
+img[alt] {
   border-radius: 50%;
-  border-width: 5px;
-  border-style: solid;
-  border-color: brown;
 }
 
-#lista-gatos-aman {
-  font-size: 15px;
-  color: blueviolet;
+input[type="radio"] {
+  margin: 5px;
 }
 
-#lista-gatos-odian {
-  font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+input[type="checkbox"] {
+  margin: 8px;
 }
 
-img{
-  width: 200px;
-}
-
-#foto-principal {
-  margin: 20px;
-  background-color: purple;
-  border-width: 2px ;
-  border-color: black;
-  border-style: solid;
-  padding: 20px 15px 5px 10px ;
-}
-
-div {
-  background-color: crimson;
+a[href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/"] {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
 }
