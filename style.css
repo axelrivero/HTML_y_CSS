@@ -26,9 +26,14 @@ img{
 }
 
 #foto-principal {
-  background-color: crimson;
+  margin: 20px;
+  background-color: purple;
   border-width: 2px ;
   border-color: black;
   border-style: solid;
   padding: 20px 15px 5px 10px ;
+}
+
+div {
+  background-color: crimson;
 }
