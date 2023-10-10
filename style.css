@@ -1,17 +1,11 @@
-.imagen-de-gatos {
-  width: 200px;
-  border-width: 5px;
-  border-color: blue;
-  border-style: solid;
+div {
+  background-color: blue;
 }
 
-.gatarina {
+img {
   width: 200px;
-  border-width: 5px;
-  border-color: red;
-  border-style: double dashed dotted outset;
 }
 
-.bordes-redondeados {
-  border-radius: 150px;
+.contenedor-listas {
+  background-color: aquamarine;
 }
